@@ -79,6 +79,7 @@ function deploy() {
 
 function watch() {
 	gulp.watch(envOptions.html.src, gulp.series(layoutHTML))
+	gulp.watch(envOptions.html.layoutSrc, gulp.series(layoutHTML))
 	gulp.watch(envOptions.style.src, gulp.series(sass))
 	gulp.watch(envOptions.javascript.src, gulp.series(scripts))
 	gulp.watch(envOptions.img.src, gulp.series(copyImgs))

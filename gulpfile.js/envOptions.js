@@ -13,7 +13,8 @@ let envOptions = {
 			`${srcPath}/**/*.pug`,
 			`!${srcPath}/**/_*.pug`
 		],
-		path: distPath
+		path: distPath,
+		layoutSrc: `${srcPath}/**/_*.pug`
 	},
 	style: {
 		src: [
