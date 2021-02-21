@@ -34,7 +34,6 @@ let envOptions = {
 		src: [
 			// `${nodePath}/jquery/dist/**/jquery.min.js`,
 			// `${nodePath}/axios/dist/**/axios.min.js`,
-			'.'
 		],
 		concat: 'vendors.js',
 		path: `${distPath}/assets/js`,
