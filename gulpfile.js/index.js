@@ -47,7 +47,8 @@ function scripts() {
 }
 
 function vendorJs() {
-	return gulp.src($.if(envOptions.vendors.src > 0, envOptions.vendors.src, '.'))
+	let vendorSrc = envOptions.vendors.src
+	return gulp.src($.if(vendorSrc.length > 0, envOptions.vendors.src, '.'))
 		.pipe($.concat(envOptions.vendors.concat))
 		.pipe(gulp.dest(envOptions.vendors.path))
 }
