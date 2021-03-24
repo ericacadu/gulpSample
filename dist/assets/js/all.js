@@ -1,8 +1,8 @@
 "use strict";
 
-var callFun = function callFun() {
+function callFun() {
   console.log('index.js');
-};
+}
 
 callFun();
 "use strict";

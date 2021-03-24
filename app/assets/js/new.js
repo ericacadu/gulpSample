@@ -1,4 +1,4 @@
-let newFun = ()=>{
-    console.log('a');
+const newFun = () => {
+  console.log('a')
 }
-newFun();
+newFun()

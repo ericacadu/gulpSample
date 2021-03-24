@@ -15,6 +15,7 @@
   "dependencies": {
     "@babel/core": "^7.9.6",
     "@babel/preset-env": "^7.9.6",
+    "@babel/runtime-corejs3": "^7.13.9",
     "autoprefixer": "^9.6.0",
     "axios": "^0.21.1",
     "browser-sync": "^2.26.7",
@@ -24,18 +25,28 @@
     "gulp-babel": "^8.0.0",
     "gulp-clean": "^0.4.0",
     "gulp-concat": "^2.6.1",
+    "gulp-eslint": "^6.0.0",
     "gulp-gh-pages": "^0.5.4",
     "gulp-if": "^2.0.2",
     "gulp-image": "^6.2.1",
     "gulp-load-plugins": "^2.0.6",
     "gulp-plumber": "^1.2.1",
     "gulp-postcss": "^8.0.0",
+    "gulp-prettier": "^3.0.0",
     "gulp-pug": "^4.0.1",
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^3.0.0",
+    "gulp-strip-comments": "^2.5.2",
     "jquery": "^3.5.1",
     "minimist": "^1.2.0",
     "node-sass": "^4.12.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.22.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1"
   },
   "browserslist": [
     "last 5 version",
